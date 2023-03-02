@@ -1,3 +1,11 @@
+/*
+  从手机到桌面，每个浏览器都有自己的默认设置。
+  我们的解决方案是重置所有这些默认值，这样所有浏览器都将以相同的普通 CSS 属性开始。
+  推荐的模板是 Eric Meyer 的 Reset CSS 代码和 Normalize.CSS。
+  https://necolas.github.io/normalize.css/
+
+  全局CSS
+*/
 :root {
   --border-radius: 4px;
   --color-text: #333;
@@ -34,6 +42,7 @@ html {
   overflow-y: scroll;
 }
 body {
+  /* 字体平滑 */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text);
@@ -43,6 +52,7 @@ body {
   margin: 0;
   word-wrap: break-word;
 }
+/* 链接 */
 a {
   background-color: transparent;
   color: var(--color-primary);
