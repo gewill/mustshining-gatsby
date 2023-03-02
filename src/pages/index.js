@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/diamond-svgrepo-com.svg"
+        src="/images/diamond-svgrepo-com.svg"
         loading="eager"
         width={64}
         quality={95}
