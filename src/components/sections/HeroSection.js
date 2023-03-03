@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { H1, MediumText } from "../styles/TextStyles"
 
 function HeroSection() {
   return (
@@ -38,9 +39,8 @@ const ContentWrapper = styled.div`
 const TextWrapper = styled.div`
   max-width: 360px;
 `
-const Title = styled.h1`
-  font-weight: bold;
-  font-size: 60px;
+// 这里属于二次定制
+const Title = styled(H1)`
   color: white;
 `
 const Description = styled.p`
